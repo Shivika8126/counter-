@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col items-center justify-center h-screen gap-4">
+    
+    
+    <h1 id="count" class="text-5xl font-bold text-indigo-600">0</h1>
+    <div class="flex items-center justify-center gap-4 text-2">
+        <button id="btn1" class="bg-green-500 hover: bg-green-600 text-white text-xl px-5 py-5 rounded-xl shadow-md transition">+</button>
+     <button id="btn2" class="bg-red-500 hover: bg-red-600 text-white text-xl px-5 py-5 rounded-xl shadow-md transition">-</button>
+    </div>
+    <div class="space-y-2">
+     <p class="text-gray-600 text-1xl">increment/decrement by :</p> <input type="number" id="step" class=" border-2 border-indigo-300 rounded-lg p-2 text-center focus:outline-none focus: ring-indigo-400" placeholder="Enter number">
+     </div>
+     <button id="reset" class=" bg-gray-700 hover : bg-gray-800 text-white px-5 py-2 rounded-xl shadow-md transition">reset</button>
+     <script src="index.js"></script>
+</body>
+</html>
